@@ -1,0 +1,31 @@
+.LocationHoursPage {
+  background-image: url("../../public/aboutBGImage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  padding: 90px;
+  justify-content: center;
+}
+
+.LocationHoursPage #LocationHoursForm {
+  text-align: center;
+}
+
+#LocationHoursForm {
+  padding-top: 130px;
+
+  display: inline-flex;
+}
+
+.hoursDiv {
+  margin-left: 120px;
+}
+.LocationHoursPage h2 {
+  font-weight: bold;
+  color: rgb(22, 95, 95);
+}
+
+.LocationHoursPage p {
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}

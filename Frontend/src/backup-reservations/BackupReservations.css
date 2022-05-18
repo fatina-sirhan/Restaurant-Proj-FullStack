@@ -1,0 +1,157 @@
+.backupReservationsPage {
+  background-image: url("../../public/aboutBGImage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+  padding: 90px;
+}
+
+.BackupHelp {
+  /* background-color: lightsteelblue;
+  border: 2px solid gray;
+  border-radius: 5px; */
+  /* margin: 30px; */
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-around; */
+  justify-content: space-between;
+}
+
+.divAroundCards {
+  /* background-color: rgba(250, 244, 244, 0.3);
+  background-color: lightsteelblue; */
+  /* width: 100%; */
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.717);
+
+
+  text-align: center;
+  font-family: arial;
+
+  background-color: rgba(146, 144, 144, 0.404);
+  background-image: linear-gradient(135deg, rgba(255, 250, 250, 0.226) 40%,rgba(237, 236, 236, 0.605));
+
+  /* background-color: rgba(218, 218, 218, 0.406); */
+  /* border: 2px solid rgba(0, 0, 0, 0.2); */
+  border-radius: 5px;
+  margin: 10px 10px;
+
+  /* max-width: 400px; */
+
+
+  /* padding: 10px;
+  text-align: justify; */
+}
+
+.divAroundReservationID {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+.divAroundReservationID #reservationID {
+  margin-left: 5px;
+  width: 57%;
+}
+
+.divAroundNumOfPeople {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+.divAroundNumOfPeople #numOfPeople {
+  margin-left: 5px;
+  width: 47%;
+}
+
+.divAroundReservationDate {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+.divAroundReservationDate #theDate {
+  margin-left: 5px;
+  width: 75%;
+}
+
+.divAroundReservationHour {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+.divAroundReservationHour #reservationDate {
+  margin-left: 5px;
+  width: 74%;
+}
+
+.divAroundTotalNum {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+.divAroundTotalNum #totalNum {
+  margin-left: 5px;
+  width: 37%;
+}
+
+.divAroundJoinStatus {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+.divAroundJoinStatus #joinStatus {
+  margin-left: 5px;
+  width: 63%;
+}
+
+.divAroundButtons button{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* margin-top: 10px; */
+/* 
+  background-color: rgba(56, 56, 56, 0.288); */
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: black;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 2px;
+  /* width: 15%; */
+  /* font-size: 10px; */
+}
+
+.divAroundButtons button:hover {
+  opacity: 0.7;
+} 
+
+
+
+
+.divAroundOrderID{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+.divAroundOrderID #orderID{
+  margin-left: 5px;
+  width: 73%;
+}
+
+.divAroundOrderID #orderDate{
+  margin-left: 5px;
+  width: 66%;
+}
+
+.divAroundOrderID #totalPrice{
+  margin-left: 5px;
+  width: 68%;
+}

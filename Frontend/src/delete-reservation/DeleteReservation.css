@@ -1,0 +1,45 @@
+.h1DeleteReservations {
+  padding: 120px;
+  margin-top: 0px;
+  text-align: center;
+  margin-bottom: -5rem;
+}
+.deleteReservationsPage {
+  background-image: url("../../public/aboutBGImage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  padding: 90px;
+}
+
+.deleteReservationsPage #divAroundID {
+  padding: 15px;
+}
+
+.deleteReservationsPage input[type="submit"]:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.deleteReservationsPage input[type="submit"] {
+  width: 20%;
+  color: black;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border-color: rgba(0, 0, 0, 0.4);
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#deleteForm {
+  width: 40%;
+  min-width: 350px;
+  font-size: 1.3rem;
+  line-height: 1.1rem;
+  color: bold black;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+}

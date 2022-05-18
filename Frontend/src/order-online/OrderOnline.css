@@ -1,0 +1,110 @@
+.list {
+  background-color: rgba(0, 0, 0, 0.1);
+  /* border: 2px solid gray; */
+  border-radius: 5px;
+  margin: 10px 20px;
+  max-width: 300px;
+  padding-top: 10px;
+  text-align: center;
+
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+
+  /* margin: auto; */
+
+  font-family: arial;
+}
+
+.list img {
+  width: 200px;
+  height:150px;
+  border-radius: 8px;
+}
+
+.menuList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.title {
+  padding-top: 100px;
+  margin-top: 0px;
+  text-align: center;
+  margin-bottom: 2rem;
+  
+}
+.itemTitle{
+  color:   rgb(22, 95, 95);
+}
+
+.underLine {
+  width: 6rem;
+  height: 0.25rem;
+  background: #c59d5f;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu-tabs {
+  padding: 0 15px;
+  width: 100%;
+  text-align: center;
+  /* margin-bottom: 30px; */
+}
+
+.menu-tab-item {
+  font-size: 18px;
+  font-family: inherit;
+  text-transform: capitalize;
+  border: none;
+  background-color: transparent;
+  font-weight: 500;
+  color: var(--white);
+  cursor: pointer;
+  margin: 0 10px 10px;
+  transition: color 0.7s ease;
+}
+
+.menu-tab-item.active {
+  color: var(--main-color);
+}
+
+
+
+
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.list button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: rgba(18, 18, 18, 0.785);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+
+}
+
+.list button:hover {
+  opacity: 0.7;
+} 

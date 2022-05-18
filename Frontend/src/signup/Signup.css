@@ -1,0 +1,88 @@
+#signupForm {
+  width: 45%;
+  min-width: 300px;
+  font-size: 1.3rem;
+  line-height: 1.1rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+}
+
+.signupPage #signupForm {
+  text-align: center;
+}
+
+.signupPage {
+  text-align: center;
+  height: 700px;
+  margin: auto;
+  background-image: url("../../public/aboutBGImage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#divAroundHSignup {
+  padding: 120px;
+  padding-bottom: 50px;
+  margin-top: 0px;
+}
+
+#divAroundSignupPassword,
+#divAroundName {
+  width: 100%;
+}
+
+.signupPage input[type="text"] {
+  border: 1px inset rgba(241, 241, 241, 1);
+  padding: 10px;
+  margin-top: 3px;
+}
+
+.signupPage input[type="password"] {
+  border: 1px inset rgba(241, 241, 241, 1);
+  padding: 10px;
+  margin-top: 3px;
+}
+
+#SignupPassword {
+  width: 80%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#ConfirmPassword {
+  width: 80%;
+  border-radius: 5px;
+}
+
+#Email {
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+#fname #lname {
+  width: 40%;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+  /* background-color: gray; */
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+input[type="submit"] {
+  width: 40%;
+  color: black;
+  padding: 14px 20px;
+  margin: 17px 0px 3px 0px;
+  /* border-color: rgba(0, 0, 0, 0.6); */
+  border-color: #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}

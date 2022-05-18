@@ -1,0 +1,3 @@
+export let allElemObj={
+    "aboutInnerHTML" :"<div class='introTitle'>About us</div> <div class='aboutDescription'> <h2 class='sectionIntroTitle'>THE MAGICAL PLACE RESTAURANT</h2> <p>What sets our restaurant apart is that you can join table or let others join your table, and share common interests. <br/><br />At The Magical Place we prepare and serve high quality, simple food, at a great value, in a home-like environment.</p></div>"
+}

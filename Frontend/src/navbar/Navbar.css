@@ -1,0 +1,50 @@
+.Navbar {
+  /* background-color: black; */
+  /* font-size: 0px; */
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+}
+
+.Navbar .navLogo img {
+  width: 100px;
+}
+
+.Navbar .navItemsUl {
+  list-style: none;
+  display: flex;
+  padding: 20px;
+}
+
+.Navbar .navItemsUl li {
+  margin-right: 10px;
+}
+
+.Navbar .navItemsUl li:not(:last-child) {
+  border-right: solid 2px aliceblue;
+  padding-right: 10px;
+}
+
+.Navbar .navItemsUl li a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 1.2rem;
+}
+
+.Navbar .navItemsUl a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 1.2rem;
+}
+
+.Navbar .navItemsUl button {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 1.2rem;
+  background-color: transparent;
+  border: none;
+}

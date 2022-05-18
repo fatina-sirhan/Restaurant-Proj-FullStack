@@ -1,0 +1,64 @@
+/* .h1Reservations {
+  padding: 120px;
+  margin-top: 0px;
+  text-align: center;
+  margin-bottom: -5rem;
+} */
+.reservationsPage {
+  background-image: url("../../public/aboutBGImage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 750px;
+  padding: 90px;
+}
+
+.reservationForm {
+  padding-top: 130px;
+}
+
+
+.reservationForm button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  /* background-color: aliceblue; */
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 5px #999;
+  /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
+  margin: 20px 0;
+  margin-left: 20px;
+}
+
+.reservationForm button:hover { box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);}
+
+.reservationForm button:active {
+  background-color: rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+
+/* .reservationForm button:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: aliceblue;
+} */
+/* 
+.reservationForm button { */
+  /* width: 20%; */
+  /* background-color: rgba(0, 0, 0, 0.7);
+  color: aliceblue; */
+  /* color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  margin-left: 8px;
+  border-color: rgba(0, 0, 0, 0.7);
+  border-radius: 4px;
+  cursor: pointer;
+} */

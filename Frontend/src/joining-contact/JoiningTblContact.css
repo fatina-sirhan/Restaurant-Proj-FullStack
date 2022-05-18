@@ -1,0 +1,98 @@
+#contactForm {
+  width: 40%;
+  min-width: 350px;
+  font-size: 1.3rem;
+  line-height: 1.1rem;
+  color: bold black;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+}
+
+.JoiningTblContactPage #contactForm {
+  text-align: center;
+}
+
+.JoiningTblContactPage {
+  text-align: center;
+  margin: auto;
+  background-image: url("../../public/aboutBGImage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#divAroundH {
+  padding: 15px;
+  margin-top: 0px;
+}
+
+#divAroundTxtArea,
+#divAroundEmail,
+#divAroundName,
+#divAroundPhone {
+  width: 100%;
+}
+
+.ContactUsPage input[type="text"] {
+  border: 1px inset rgba(241, 241, 241, 1);
+  padding: 5px;
+  margin-top: 3px;
+}
+
+#Email,
+#Phone {
+  width: 80%;
+  border: 1px solid #ccc;
+}
+
+#fname,
+#lname {
+  width: 40%;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.JoiningTblContactPage .lbl {
+  display: block;
+  padding: 2px;
+  margin-top: 5px;
+}
+
+.JoiningTblContactPage input[type="submit"]:hover {
+  background-color: gray;
+}
+
+.JoiningTblContactPage input[type="submit"] {
+  width: 81%;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border-color: black;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contactIntroTitle {
+  font-size: 35px;
+  line-height: 36px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  display: block;
+  color: black;
+}
+
+.contactTitle {
+  margin-top: 111px;
+  font-size: bold 22px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(177, 6, 6);
+  line-height: 0px;
+  text-shadow: none;
+  display: block;
+}
